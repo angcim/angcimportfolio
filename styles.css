@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/**** Applied to All and Classes *****/
+
+body{
+  font-family: 'Lato';
+}
+
+
+/**** MOBILE: HOME PAGE *****/
+h2 a{
+  color: #41BDBF;
+  text-align: center;
+  padding: 0.25em;
+
+}
+
+a{
+  text-decoration: none !important;
+}
+
+h2 a:hover{
+  color: #41BDBF;
+  text-decoration: none;
+
+}
+
+header a, button:hover{
+  background-color: #fff;
+}
+
+#portfolioPreview, #banner, #name, #banner-tablet{
+  display: none;
+}
+
+#resume #banner-tablet{
+  display: block;
+}
+
+#home-img{
+  width: 85%;
+  height: 85%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#home header {
+  background-image: linear-gradient(to top, #63C9B5 , #5DA9CE);
+}
+
+header h1, header h3, button {
+  color: #fff;
+}
+
+h3{
+  line-height: 1.25em;
+}
+
+header a{
+  font-size: 16px;
+  border-radius: 5px;
+  color: #2AB59A !important;
+  font-weight: 600;
+}
+
+#banner-resume a:hover, #banner-work a:hover{
+  background-color: #1E85BC;
+  color: #fff !important;
+}
+
+.nav-link{
+  color: #1E85BC !important;
+  font-weight: 300;
+  }
+
+  .nav-link, footer{
+    font-size: 20px;
+  }
+
+  .navbar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 16px 0 rgba(0, 0, 0, 0.02);
+}
+
+  footer{
+    background-color: #F5F5F5;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  footer, button:hover{
+    color: #40B3B5;
+  }
+
+button a{
+    color: #fff;
+    font-weight: 600;
+
+  }
+
+/**** MOBILE: ABOUT ME *****/
+
+#aboutPage h3, #aboutPage h4{
+  color: #1D84BB;
+}
+
+#aboutPage h3{
+  font-weight: bold;
+  margin-top: -30%;
+}
+
+/**** MOBILE: ABOUT ME *****/
+
+#aboutPage h3, #aboutPage h4{
+  color: #1D84BB;
+}
+
+#aboutPage h3{
+  font-weight: bold;
+  margin-top: -30%;
+}
+
+/**** MOBILE: PORTFOLIO *****/
+#portfolioPage h3{
+  color: #fff;
+}
+
+/**** MOBILE: PROJECT 1 *****/
+#project1 h1{
+color: #73CED0;
+}
+
+#project1 .section1{
+  background: #5876A4;
+  color: #fff;
+}
+
+#endo-1{
+  width: 100%;
+}
+
+#background2{
+  background:#5587C0;
+  padding: 4em;
+}
+
+#endo-2{
+  margin-top:-25%;
+  width: 95%;
+  padding: 2em;
+}
+
+#background3{
+  background:#536581;
+  padding: 3em;
+}
+
+#endo-3{
+  margin-top:-45%;
+  width: 100%;
+}
+
+.section1{
+  text-align: left;
+}
+
+#portfolioPage h2 a{
+    color: #41BDBF;
+  }
+
+#portfolioPage h3 a{
+    color: #fff;
+  }
+}
+
+
+@media only screen and (min-width: 600px){
+  /**** TABLET: HOME PAGE *****/
+  header a{
+    font-size: 25px;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  #home-img{
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+  }
+
+  /**** TABLET: ABOUT PAGE *****/
+  #aboutMe{
+    display: none;
+  }
+
+  #aboutPage header, #portfolioPage header, #aboutPage #banner{
+    display: block;
+  }
+
+  #aboutPage #about p{
+    width: 75%;
+    text-align: left;
+  }
+
+#about {
+  margin-left: 30%;
+}
+
+#aboutPage h3{
+  font-weight: bold;
+  margin-top: -40%;
+}
+
+.section1{
+  text-align: left;
+}
+
+}
+
+@media only screen and (min-width: 1000px){
+/**** DESKTOP: HOME PAGE *****/
+
+h2{
+  padding: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex-direction: column;
+  }
+
+  header {
+    background-image: linear-gradient(to top, #fff , #fff);
+    margin-top: -27em;
+    width: 60%;
+  }
+
+  #home-img{
+    display: none;
+  }
+
+  #banner-tablet, #portfolioPreview{
+    display: block;
+  }
+
+#portfolioPreview a{
+    font-size: 25px;
+    font-weight: 300;
+    color: #1D84BB;
+  }
+
+  #portfolioPreview{
+    padding-bottom: 7em;
+  }
+
+  #portfolioPreview h2{
+      color: #0F608B;
+    }
+
+  p{
+    text-align: left;
+  }
+
+  header a{
+    font-size: 15px;
+  }
+
+  header h1 {
+    font-size: 35px;
+  }
+
+  header h3 {
+    font-size: 25px;
+  }
+
+  h2, #viewAll{
+    text-align: right;
+  }
+
+  #home header {
+    background-image: none;
+  }
+
+/* CAROUSEL */
+.carousel-inner img{
+    margin: auto;
+  }
+
+  .carousel-control-prev, .carousel-control-next{
+    color: #1D84BB !important;
+  }
+
+  .fa-chevron-right, .fa-chevron-left{
+    font-size: 80px;
+  }
+
+  .carousel-caption{
+    color: #5DA9CE;
+    width: 225px;
+    margin-top: -5em;
+    bottom: 60px;
+    text-align: right;
+  }
+
+h5{
+    color: #5DA9CE;
+    font-size: 25px;
+  }
+
+ .carousel-caption p{
+      color: #0E6491;
+      font-size: 20px;
+          text-align: right;
+    }
+
+    .carousel-caption p, button {
+             font-weight: 600;
+       }
+
+    button{
+      border: none;
+      background-color: #40B3B5;
+      padding: 0.75em 1em;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 16px 0 rgba(0, 0, 0, 0.05);
+    }
+
+    footer p{
+     font-size: 16px;
+     margin-bottom: 0;
+    }
+
+    footer img{
+      width: 2%;
+      height: 2%;
+    }
+
+    /**** DESKTOP: ABOUT PAGE *****/
+    #aboutPage  h1{
+      width: 45%;
+      margin-left: 30%;
+    }
+
+      #aboutPage  h1 span{
+      font-size: 18px;
+    }
+
+    #aboutPage h3{
+      margin-top: 25%;
+    }
+
+    #about{
+    margin-left: 30%;
+    margin-top:1%;
+  }
+
+}
+
+@media only screen and (min-width: 1100px){
+/**** DESKTOP: HOME PAGE *****/
+.carousel-caption{
+    width: 275px;
+    bottom: 100px;
+  }
+
+  /**** DESKTOP: ABOUT PAGE *****/
+      #aboutPage h1{
+    width: 45%;
+    margin-left: 28%;
+  }
+
+      #aboutPage q, #aboutPage h1 span{
+    font-size: 35px;
+  }
+
+    #aboutPage h1 span{
+    font-size: 20px;
+  }
+
+
+    #about h3{
+      margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+/**** DESKTOP: HOME PAGE *****/
+
+  header {
+    margin-top: -25em;
+  }
+
+#portfolioPreview a{
+    font-size: 30px;
+  }
+
+  #portfolioPreview{
+    padding-bottom: 7em;
+  }
+
+  #banner{
+      display: block;
+    }
+
+    #banner-tablet{
+      display: none;
+    }
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  header h3 {
+    font-size: 28px;
+  }
+/* CAROUSEL */
+
+  .carousel-caption{
+    width: 26%;
+    bottom: 100px;
+  }
+
+  #about h3{
+    margin-top: 10%;
+  }
+
+  #aboutMe{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1500px){
+/**** DESKTOP: HOME PAGE *****/
+
+  header {
+    margin-top: -29em;
+  }
+
+  header h1 {
+    font-size: 45px;
+  }
+
+  header h3 {
+    font-size: 35px;
+  }
+
+  /**** DESKTOP: ABOUT PAGE *****/
+      #aboutPage h1{
+    width: 45%;
+    margin-left: 28%;
+  }
+
+      #aboutPage h1 span{
+    font-size: 40px;
+  }
+
+  #about h3{
+    margin-top: 7%;
+  }
+
+}
+
+@media only screen and (min-width: 1900px){
+/**** DESKTOP: HOME PAGE *****/
+
+  header {
+    margin-top: -31em;
+  }
+
+  header h1 {
+    font-size: 45px;
+  }
+
+  header a, .carousel-caption p{
+    font-size: 25px;
+  }
+
+  header h3 {
+    font-size: 35px;
+  }
+
+  h5{
+      font-size: 30px;
+    }
+
+      button{
+        font-size: 20px
+      }
+
+
+  }
+
+
+/* #banner {
+background-image:url('images/header.svg');
+background-repeat:no-repeat;
+width: 100%;
+}
+  */
